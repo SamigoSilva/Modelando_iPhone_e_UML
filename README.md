@@ -63,46 +63,4 @@ classDiagram
 https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
 ```` 
 
-+-------------------------------------+
-|            <<interface>>            |
-|          ReprodutorMusical          |
-+-------------------------------------+
-| + tocar(): void                     |
-| + pausar(): void                    |
-| + selecionarMusica(musica: String)  |
-+-------------------------------------+
-                 ^
-                 |
-+-------------------------------------+
-|            <<interface>>            |
-|         AparelhoTelefonico          |
-+-------------------------------------+
-| + ligar(numero: String): void       |
-| + atender(): void                   |
-| + iniciarCorreioVoz(): void         |
-+-------------------------------------+
-                 ^
-                 |
-+-------------------------------------+
-|            <<interface>>            |
-|        NavegadorInternet            |
-+-------------------------------------+
-| + exibirPagina(url: String): void   |
-| + adicionarNovaAba(): void          |
-| + atualizarPagina(): void           |
-+-------------------------------------+
-                 ^
-                 |
-+-------------------------------------+
-|               iPhone                |
-+-------------------------------------+
-| + tocar(): void                     |
-| + pausar(): void                    |
-| + selecionarMusica(musica: String)  |
-| + ligar(numero: String): void       |
-| + atender(): void                   |
-| + iniciarCorreioVoz(): void         |
-| + exibirPagina(url: String): void   |
-| + adicionarNovaAba(): void          |
-| + atualizarPagina(): void           |
-+-------------------------------------+
+![image](https://github.com/user-attachments/assets/a666ca59-cff2-44c7-89f7-fbb531f562f4)
